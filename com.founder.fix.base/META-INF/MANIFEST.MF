@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Base
+Bundle-SymbolicName: com.founder.fix.base
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.founder.fix.base.Activator
+Bundle-Vendor: FOUNDER
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: com.founder.fix.base,
+ com.founder.fix.base.platformdesigner.Entity.project
